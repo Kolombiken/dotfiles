@@ -1,5 +1,5 @@
 # Kolombikens's dotfiles
-Yes, they are heavily based on [Paul's dotfiles](https://github.com/paulirish/dotfiles))
+Yes, they are heavily based on [Paul's dotfiles](https://github.com/paulirish/dotfiles) 😁
 
 ## Setup
 #### installing & using
@@ -90,10 +90,6 @@ Mathias's repo is the canonical for this, but you should probably run his or min
 ./.osx
 ```
 
-### `~/bin`
-
-One-off binaries that aren't via an npm global or homebrew. [git open](https://github.com/paulirish/git-open), [wifi-password](https://github.com/rauchg/wifi-password), [coloredlogcat](https://developer.sinnerschrader-mobile.com/colored-logcat-reloaded/507/), [git-overwritten](https://github.com/mislav/dotfiles/blob/master/bin/git-overwritten), and `subl` for Sublime Text.
-
 ### Syntax highlighting for these files
 
-If you edit this stuff, install [Dotfiles Syntax Highlighting](https://github.com/mattbanks/dotfiles-syntax-highlighting-st2) via [Package Control](http://wbond.net/sublime_packages/package_control)
+If you edit this stuff, install [Dotfiles Syntax Highlighting](https://github.com/Dreamseer/language-dotfiles) for Atom (or something else if you use another editor)
