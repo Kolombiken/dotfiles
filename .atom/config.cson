@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontSize: 16
+    softWrap: true
+  "exception-reporting":
+    userId: "f813dd06-e0d3-8978-1f6a-a15e130889d5"
+  welcome:
+    showOnStartup: false
