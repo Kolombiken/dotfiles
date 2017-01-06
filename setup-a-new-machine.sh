@@ -132,6 +132,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 
+# install all the IE vms
+# https://github.com/xdissent/ievms/
+curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | bash
 
 ##############################################################################################################
 ### remaining configuration
