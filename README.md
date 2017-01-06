@@ -1,5 +1,5 @@
 # Kolombikens's dotfiles
-Yes, they are heavily based on [Paul's dotfiles](https://github.com/paulirish/dotfiles) 😁
+Yes, they are heavily based on [Paul's dotfiles](https://github.com/paulirish/dotfiles) But I have modified and removed things. Like some words. 😁
 
 ## Setup
 #### installing & using

@@ -6,7 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="xxf"
+ZSH_THEME="robbyrussell"
 
 # history
 SAVEHIST=100000
@@ -82,6 +82,9 @@ export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Load default dotfiles
+source ~/Projects/dotfiles/.bash_profile
 
 export NVM_DIR="/Users/Ida/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

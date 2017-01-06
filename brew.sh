@@ -49,6 +49,7 @@ brew install node
 brew install yarn
 brew install rename
 brew install tree
+brew install z
 brew install ffmpeg --with-libvpx
 
 brew install zsh
