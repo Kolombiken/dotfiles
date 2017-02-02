@@ -45,6 +45,7 @@ brew install hub
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
+brew install graphicsmagick
 brew install node
 brew install yarn
 brew install rename
