@@ -86,5 +86,18 @@ export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/
 # Load default dotfiles
 source ~/Projects/dotfiles/.bash_profile
 
-export NVM_DIR="/Users/Ida/.nvm"
+
+# nvm auto-use on change cwd
+if [ -d "${HOME}/.nvm" ] ; then
+ function chpwd() {
+    emulate -L zsh
+    [ -f .nvmrc ] && nvm use
+ }
+fi
+
+if [ -f ".nvmrc" ]; then
+    nvm use
+fi
+
+export NVM_DIR="/Users/ifra/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

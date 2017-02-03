@@ -29,6 +29,7 @@ brew cask install virtualbox
 brew cask install color-oracle
 brew cask install filezilla
 brew cask install kaleidoscope
+brew cask install tunnelblick
 
 # browsers
 brew cask install google-chrome-canary
