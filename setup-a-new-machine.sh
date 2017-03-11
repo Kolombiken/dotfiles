@@ -117,6 +117,9 @@ npm install --global trash-cli
 # lint js-things
 npm install -g eslint
 
+# cli for optimizing images
+npm install -g imageoptim-cli
+
 # install better nanorc config
 # https://github.com/scopatz/nanorc
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh

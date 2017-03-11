@@ -179,3 +179,40 @@ function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCodeInsiders" -
 shellswitch () {
 	chsh -s $(brew --prefix)/bin/$1
 }
+
+# This can be used as
+# $ cd some-image-folder
+# $ rename_img
+
+rename_img(){
+	echo "Renaming images"
+	a=1
+	for i in *.jpg; do
+	  new=$(printf "%04d.jpg" "$a") #04 pad to length of 4
+	  mv -- "$i" "$new"
+	  let a=a+1
+	done
+}
+
+# This can be used as
+# $ cd some-image-folder
+# $ img_size_folder thumbnail 150
+
+img_size_folder(){
+  mkdir $1
+  cp *.jpg $1
+  cd $1
+  mogrify -resize $2 *.jpg
+  cd ..
+}
+
+# Everything combined!
+# $ cd some-image-folder
+# $ create_image_sizes
+
+create_image_sizes(){
+  rename_img
+  img_size_folder large 960
+  img_size_folder medium 640
+  img_size_folder small 420
+}
