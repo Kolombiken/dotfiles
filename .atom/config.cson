@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "c83e8920-51b2-492f-a2d3-2ddc6ca0b18a"
   core:
     telemetryConsent: "no"
     themes: [
@@ -6,7 +9,7 @@
       "one-dark-syntax"
     ]
   editor:
-    fontSize: 16
+    fontSize: 17
     softWrap: true
   "eslint-fixer":
     fileType: "js, jsx"
