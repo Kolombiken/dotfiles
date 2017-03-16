@@ -8,7 +8,13 @@
   editor:
     fontSize: 16
     softWrap: true
+  "eslint-fixer":
+    fileType: "js, jsx"
   "exception-reporting":
     userId: "f813dd06-e0d3-8978-1f6a-a15e130889d5"
+  react: {}
   welcome:
     showOnStartup: false
+".editorconfig.source":
+  editor:
+    softWrapAtPreferredLineLength: false
