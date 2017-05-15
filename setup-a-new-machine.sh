@@ -120,6 +120,10 @@ npm install -g eslint
 # cli for optimizing images
 npm install -g imageoptim-cli
 
+# tiny care terminal - a little dashboard
+npm install -g tiny-care-terminal
+npm install -g git-standup
+
 # install better nanorc config
 # https://github.com/scopatz/nanorc
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh

@@ -103,3 +103,7 @@ export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+# for global npm-module tiny-care-terminal
+export TTC_WEATHER='Stockholm'
+export TTC_REPOS='~/Projects/'
