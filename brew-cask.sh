@@ -23,6 +23,7 @@ brew cask install spotify
 # dev
 brew cask install sublime-text
 brew cask install atom
+brew cask install visual-studio-code
 brew cask install imagealpha
 brew cask install imageoptim
 brew cask install virtualbox
