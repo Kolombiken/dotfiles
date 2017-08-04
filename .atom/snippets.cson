@@ -39,3 +39,15 @@
 \t<script type="text/javascript" src=" "></script>\n
 \t</body>\n
 </html>'
+
+'.source.js':
+    'Mocha Skeleton':
+      'prefix': 'mochaccino'
+      'body': '
+import { mount } from \'enzyme\';\n
+import React from \'react\';\n
+\n
+describe(\'\', () => { \n
+\t it(\'\', () => { \n
+\t }); \n
+});\n'
