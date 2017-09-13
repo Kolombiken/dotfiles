@@ -12,7 +12,10 @@
     softWrap: true
   "exception-reporting":
     userId: "f813dd06-e0d3-8978-1f6a-a15e130889d5"
+  "linter-sass-lint":
+    noConfigDisable: true
   "linter-ui-default":
+    panelHeight: 69
     showPanel: true
   "prettier-atom":
     useEslint: true

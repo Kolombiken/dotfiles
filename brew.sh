@@ -47,7 +47,7 @@ brew install git-lfs
 brew install imagemagick --with-webp
 brew install graphicsmagick
 brew install node
-brew install yarn
+brew install yarn --without-node
 brew install rename
 brew install tree
 brew install z
