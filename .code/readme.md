@@ -2,7 +2,11 @@
 
 ## Symlink
 
-Add a symlink via the Terminal
+First remove the User-folder (if you are scared you can save the folder elsewhere and skip this step!)
+
+`rm -rf ~/Library/Application\ Support/Code/User`
+
+Then add a symlink via the Terminal
 
 `ln -s ~/Projects/dotfiles/.code/User ~/Library/Application\ Support/Code/User`
 
