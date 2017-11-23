@@ -1,5 +1,6 @@
 {
     "editor.fontSize": 14,
     "editor.fontFamily": "'Fira Mono', Monaco, 'Courier New', monospace",
-    "workbench.colorTheme": "One Dark Pro"
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.tabSize": 2
 }
