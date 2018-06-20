@@ -2,5 +2,13 @@
     "editor.fontSize": 14,
     "editor.fontFamily": "'Fira Mono', Monaco, 'Courier New', monospace",
     "workbench.colorTheme": "One Dark Pro",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.autoIndent": true,
+    "editor.renderWhitespace": "all",
+    "html.format.indentHandlebars": true,
+    "window.zoomLevel": 0,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true
 }
