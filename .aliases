@@ -76,6 +76,9 @@ alias prunebranch="git branch --merged master --no-color | grep -v 'master' | xa
 # Shortcuts
 alias g="git"
 
+# Delete all .orig-files after a conflict
+alias orig="find . -name '*.orig' -delete"
+
 # File size
 alias fs="stat -f \"%z bytes\""
 
