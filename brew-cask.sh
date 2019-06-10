@@ -32,6 +32,7 @@ brew cask install filezilla
 brew cask install kaleidoscope
 brew cask install sequel-pro
 brew cask install tunnelblick
+brew cask install postman
 
 # browsers
 brew cask install google-chrome-canary

@@ -3,6 +3,10 @@
     "editor.fontFamily": "'Fira Mono', Monaco, 'Courier New', monospace",
     "workbench.colorTheme": "One Dark Pro",
     "editor.tabSize": 2,
+    "editor.autoIndent": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "editor.trimAutoWhitespace": true,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
         "vue-html": "html"
@@ -13,5 +17,15 @@
             "attr_quotes": "single"
         }
     },
+    "files.trimTrailingWhitespace": true, 
+    "html.format.indentHandlebars": true,
+    "window.zoomLevel": 0,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
     "eslint.autoFixOnSave": true
 }

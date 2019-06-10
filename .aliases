@@ -70,8 +70,14 @@ alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 alias diskspace_report="df -P -kHl"
 alias free_diskspace_report="diskspace_report"
 
+# Clean out all branches merge to master
+alias prunebranch="git branch --merged master --no-color | grep -v 'master' | xargs git branch -d"
+
 # Shortcuts
 alias g="git"
+
+# Delete all .orig-files after a conflict
+alias orig="find . -name '*.orig' -delete"
 
 # File size
 alias fs="stat -f \"%z bytes\""
