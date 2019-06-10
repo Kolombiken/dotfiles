@@ -107,3 +107,6 @@ export PATH="$PATH:/opt/yarn-1.0.1/bin"
 # for global npm-module tiny-care-terminal
 export TTC_WEATHER='Stockholm'
 export TTC_REPOS='~/Projects/'
+
+# for Ruby env
+eval "$(rbenv init -)"

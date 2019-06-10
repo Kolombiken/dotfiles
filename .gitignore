@@ -2,7 +2,6 @@
 # Git credential file
 .gitconfig.local
 
-
 # No modules from node
 node_modules
 
@@ -17,3 +16,7 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Files that is specific to each computer
+.code/User/globalStorage/
+.code/User/workspaceStorage/
