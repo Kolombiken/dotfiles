@@ -19,10 +19,11 @@ brew cask install 1password
 brew cask install rescuetime
 brew cask install flux
 brew cask install spotify
+brew cask install grammarly
+brew cask install slack
 
 # dev
 brew cask install sublime-text
-brew cask install atom
 brew cask install visual-studio-code
 brew cask install imagealpha
 brew cask install imageoptim
@@ -31,13 +32,11 @@ brew cask install color-oracle
 brew cask install filezilla
 brew cask install kaleidoscope
 brew cask install sequel-pro
-brew cask install tunnelblick
-brew cask install postman
+brew cask install insomnia
+
 
 # browsers
 brew cask install google-chrome-canary
-brew cask install firefoxnightly
-brew cask install webkit-nightly
 brew cask install chromium
 brew cask install lynxlet
 brew cask install opera
