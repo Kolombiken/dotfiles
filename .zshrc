@@ -102,4 +102,6 @@ export TTC_WEATHER='Stockholm'
 export TTC_REPOS='~/Projects/'
 
 # for Ruby env
-eval "$(rbenv init -)"
+if type "$rbenv" > /dev/null; then
+  eval "$(rbenv init -)"
+fi

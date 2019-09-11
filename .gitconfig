@@ -82,7 +82,7 @@
 
 # use separate file for username / github token / etc
 [include]
-  path = ~/.gitconfig.local
+  path = ~/.gitconfig-local
 
 [filter "lfs"]
 	clean = git-lfs clean %f
