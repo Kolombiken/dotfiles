@@ -71,7 +71,10 @@ alias diskspace_report="df -P -kHl"
 alias free_diskspace_report="diskspace_report"
 
 # Clean out all branches merge to master
-alias prunebranch="git branch --merged master --no-color | grep -v 'master' | xargs git branch -d"
+alias prunemaster="git branch --merged master --no-color | grep -v 'master' | xargs git branch -d"
+
+# Clean out all branches merge to develop
+alias prunedevelop="git branch --merged develop --no-color | grep -v 'develop' | xargs git branch -d"
 
 # Shortcuts
 alias g="git"
@@ -100,3 +103,7 @@ alias whatscripts="awk '/"scripts"/,/}/' package.json"
 
 # Copy the content of .env into clipboard
 alias envcopy="openssl base64 -in .env | pbcopy"
+
+# Custom project alias
+alias exostart="yarn stop:services && yarn start:services && yarn log:services"
+alias exowpstart="yarn stop:wordpress && yarn start:wordpress && yarn log:wordpress"
