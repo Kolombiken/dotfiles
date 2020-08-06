@@ -5,11 +5,6 @@
 #     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
 
 
-# Install native apps
-
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
-
 # daily
 brew cask install alfred
 brew cask install evernote
@@ -27,9 +22,8 @@ brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install imagealpha
 brew cask install imageoptim
-brew cask install virtualbox
 brew cask install color-oracle
-brew cask install filezilla
+brew cask install cyberduck
 brew cask install kaleidoscope
 brew cask install sequel-pro
 brew cask install insomnia
@@ -42,7 +36,7 @@ brew cask install lynxlet
 brew cask install opera
 brew cask install vivaldi
 brew cask install yandex
-brew cask install brave
+brew cask install brave-browser
 
 # less often
 brew cask install vlc
