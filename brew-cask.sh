@@ -40,7 +40,7 @@ brew cask install chromium
 brew cask install opera
 brew cask install vivaldi
 brew cask install yandex
-brew cask install brave
+brew cask install brave-browser
 
 # less often
 brew cask install vlc

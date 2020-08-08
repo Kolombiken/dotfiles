@@ -55,7 +55,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/usr/local/rvm/gems/ruby-2.1.3@global/bin:/usr/local/rvm/rubies/ruby-2.1.3/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/sbin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mysql/bin:/opt/yarn-1.0.1/bin"
+export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/usr/local/rvm/gems/ruby-2.1.3@global/bin:/usr/local/rvm/rubies/ruby-2.1.3/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/sbin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mysql/bin:/opt/yarn-1.0.1/bin:/wpcs/vendor/bin"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -105,3 +105,12 @@ export TTC_REPOS='~/Projects/'
 if type "$rbenv" > /dev/null; then
   eval "$(rbenv init -)"
 fi
+
+export PATH="/usr/local/opt/php@7.2/bin:$PATH"
+export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+export SVN_USERNAME='exodox'
+export SVN_PASSWORD='4WrVVX2(sJsKmKezJeni>bw6'
+
+export OPENEXCHANGE_APP_ID='4336f37f95d9478e8c98031b9237734a'
