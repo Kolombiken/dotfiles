@@ -42,7 +42,6 @@ cp ~/.z ~/migration # z history file.
 ##########################################################################################################
 
 
-
 ##########################################################################################################
 ### XCode Command Line Tools
 #      thx https://github.com/alrra/dotfiles/blob/ff123ca9b9b/os/os_x/installs/install_xcode.sh
@@ -88,7 +87,7 @@ fi
 ### homebrew!
 
 # install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # install all the things
 sh brew.sh

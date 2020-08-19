@@ -1,31 +1,41 @@
 {
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'Fira Mono', Monaco, 'Courier New', monospace",
-    "workbench.colorTheme": "One Dark Pro",
-    "editor.tabSize": 2,
-    "editor.autoIndent": true,
-    "editor.renderWhitespace": "all",
-    "editor.tabCompletion": "on",
-    "editor.trimAutoWhitespace": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "vue-html": "html"
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Mono', Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "editor.trimAutoWhitespace": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "nunjucks": "njk",
+    "liquid": "html",
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
     },
-    "emmet.syntaxProfiles": {
-        "javascript": "jsx",
-        "xml": {
-            "attr_quotes": "single"
-        }
-    },
-    "files.trimTrailingWhitespace": true, 
-    "html.format.indentHandlebars": true,
-    "window.zoomLevel": 0,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.historyExplorer.enabled": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "eslint.autoFixOnSave": true
+    "postcss": "css"
+  },
+  "files.trimTrailingWhitespace": true,
+  "html.format.indentHandlebars": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "files.autoSave": "off",
+  "eslint.trace.server": "messages",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "wordWrapColumn"
 }

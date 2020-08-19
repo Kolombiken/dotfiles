@@ -44,14 +44,14 @@ brew install hub
 # Install other useful binaries
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install graphicsmagick
 brew install node
-brew install yarn --without-node
+brew install yarn
 brew install rename
 brew install tree
 brew install z
-brew install ffmpeg --with-libvpx
+brew install ffmpeg
 
 brew install zsh
 brew install zsh-completions
