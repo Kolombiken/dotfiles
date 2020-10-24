@@ -85,17 +85,22 @@ export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/
 # Load default dotfiles
 source ~/Projects/dotfiles/.bash_profile
 
-
-# nvm auto-use on change cwd
-if [ -d "${HOME}/.nvm" ] ; then
- function chpwd() {
-    emulate -L zsh
-    [ -f .nvmrc ] && nvm use
- }
-fi
-
 export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# nvm auto-use on change cwd
+# place this after nvm initialization!
+autoload -U add-zsh-hook
+load-nvmrc() {
+  if [[ -f .nvmrc && -r .nvmrc ]]; then
+    nvm use
+  elif [[ $(nvm version) != $(nvm version default)  ]]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
 
 # for global npm-module tiny-care-terminal
 export TTC_WEATHER='Stockholm'
@@ -106,11 +111,17 @@ if type "$rbenv" > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
+command_not_found_handler () {
+    if [[ $1 =~ k[ö]+r ]]; then
+        npm run dev || yarn develop || npm run develop || npm run start
+    else
+        printf "Command not found: %s\n" "$1" >&2
+        return 127
+    fi
+}
+
 export PATH="/usr/local/opt/php@7.2/bin:$PATH"
 export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-
-export SVN_USERNAME='exodox'
-export SVN_PASSWORD='4WrVVX2(sJsKmKezJeni>bw6'
 
 export OPENEXCHANGE_APP_ID='4336f37f95d9478e8c98031b9237734a'
