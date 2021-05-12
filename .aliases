@@ -70,8 +70,8 @@ alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 alias diskspace_report="df -P -kHl"
 alias free_diskspace_report="diskspace_report"
 
-# Clean out all branches merge to master
-alias prunemaster="git branch --merged master --no-color | grep -v 'master' | xargs git branch -d"
+# Clean out all branches except main
+alias prunemain="git branch | grep -v 'main' | xargs git branch -D"
 
 # Clean out all branches merge to develop
 alias prunedevelop="git branch --merged develop --no-color | grep -v 'develop' | xargs git branch -d"
@@ -103,3 +103,7 @@ alias whatscripts="awk '/"scripts"/,/}/' package.json"
 
 # Copy the content of .env into clipboard
 alias envcopy="openssl base64 -in .env | pbcopy"
+
+alias doors-ngrok="ngrok http -region eu -hostname=dev1.doors.live 3000"
+alias doors-start="docker-compose up --build -d && docker-compose logs -f"
+alias doors-stop="docker-compose down"
