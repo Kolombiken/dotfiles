@@ -102,10 +102,6 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-# for global npm-module tiny-care-terminal
-export TTC_WEATHER='Stockholm'
-export TTC_REPOS='~/Projects/'
-
 # for Ruby env
 if type "$rbenv" > /dev/null; then
   eval "$(rbenv init -)"
@@ -119,9 +115,3 @@ command_not_found_handler () {
         return 127
     fi
 }
-
-export PATH="/usr/local/opt/php@7.2/bin:$PATH"
-export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-
-export OPENEXCHANGE_APP_ID='4336f37f95d9478e8c98031b9237734a'
