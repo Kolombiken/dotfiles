@@ -23,7 +23,6 @@
   "files.trimTrailingWhitespace": true,
   "html.format.indentHandlebars": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "prettier.disableLanguages": ["javascript", "javascriptreact"],
   "[javascript]": {
     "editor.formatOnSave": false
   },
