@@ -32,7 +32,7 @@
   "files.autoSave": "off",
   "eslint.trace.server": "messages",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 1,

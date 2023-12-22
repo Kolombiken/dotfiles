@@ -13,7 +13,6 @@ alias cp='cp -v'
 
 alias chmox='chmod -x'
 
-alias cask='brew cask' # i <3 u cask
 alias where=which # sometimes i forgets
 
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;) why? :/
@@ -104,6 +103,7 @@ alias whatscripts="awk '/"scripts"/,/}/' package.json"
 # Copy the content of .env into clipboard
 alias envcopy="openssl base64 -in .env | pbcopy"
 
-alias doors-ngrok="ngrok http -region eu -hostname=dev1.doors.live 3000"
-alias doors-start="docker-compose up --build -d && docker-compose logs -f"
-alias doors-stop="docker-compose down"
+# Kubernetes
+alias k="kubectl"
+alias kgp="kubectl get pods"
+alias kgs="kubectl get services"

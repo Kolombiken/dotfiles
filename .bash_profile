@@ -27,5 +27,7 @@ type shopt &> /dev/null && shopt -s histappend  # append to history, don't overw
 
 
 # z beats cd most of the time. `brew install z`
-zpath="$(brew --prefix)/etc/profile.d/z.sh"
-[ -s $zpath ] && source $zpath
+if which brew > /dev/null; then
+    zpath="$(brew --prefix)/etc/profile.d/z.sh"
+    [ -s $zpath ] && source $zpath
+fi;

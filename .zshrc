@@ -55,7 +55,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/usr/local/rvm/gems/ruby-2.1.3@global/bin:/usr/local/rvm/rubies/ruby-2.1.3/bin:/usr/local/rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local:/usr/local/sbin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mysql/bin:/opt/yarn-1.0.1/bin:/wpcs/vendor/bin"
+export PATH="/opt/homebrew/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/usr/local/rvm/gems/ruby-2.1.3@global/bin:/usr/local/rvm/rubies/ruby-2.1.3/bin:/usr/local/rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local:/usr/local/sbin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mysql/bin:/opt/yarn-1.0.1/bin:/wpcs/vendor/bin"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -84,9 +84,6 @@ export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-2.1.3/bin:/
 
 # Load default dotfiles
 source ~/Projects/dotfiles/.bash_profile
-
-# Load Rust things
-source $HOME/.cargo/env
 
 export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
