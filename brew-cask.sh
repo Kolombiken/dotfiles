@@ -14,6 +14,7 @@ brew install --cask grammarly
 brew install --cask slack
 
 # dev
+brew install --cask viscosity
 brew install --cask imagealpha
 brew install --cask imageoptim
 brew install --cask color-oracle
@@ -21,6 +22,7 @@ brew install --cask cyberduck
 brew install --cask kaleidoscope
 brew install --cask sequel-pro
 brew install --cask insomnia
+brew install --cask figma
 
 
 # browsers

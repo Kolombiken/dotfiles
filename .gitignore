@@ -20,3 +20,4 @@ Thumbs.db
 # Files that is specific to each computer
 .code/User/globalStorage/
 .code/User/workspaceStorage/
+.code/User/History/
